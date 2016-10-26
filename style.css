@@ -7,6 +7,7 @@ body {
   line-height: 1.6em;
 }
 
+
 h1 {
   font-family:'Open Sans', sans-serif;
   color: #dd5555;
@@ -31,7 +32,7 @@ a:hover {
 
 .card-white {
   background: white;
-  width: 500px;
+  width: 700px;
   margin: 20px auto;
   text-align: center;
   padding: 20px;
@@ -58,26 +59,45 @@ a:hover {
 
 .list-inline {
   padding-left: 0;
-  margin: 0;
-  padding: 0 20px;
+  margin: 5px;
 }
 
 .list-inline li {
+  display: inline-block;
   padding: 0 20px;
-  margin: 0px;
 }
 
 .list-inline i {
   font-size: 30px;
   color: #B3B3B3;
-  margin: 0;
 }
 
 i:hover {
   color: #DD5555;
 }
 
+#sidebar {
+  position: fixed;
+  background-color: #4C4C4C;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
 
+#sidebar li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+#sidebar ul {
+  list-style: none;
+}
+
+#page-content {
+  margin-left: 100px;
+}
 
 /*#left-container .card:first-child {
   min-height: 350px;
@@ -119,6 +139,7 @@ i:hover {
   border-radius: 2px;
   background-color: #EBEBEB;
 }
+
 
 
 
